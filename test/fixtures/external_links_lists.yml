@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  song: one
+  discogs: MyString
+  bandcamp: MyString
+  soundcloud: MyString
+
+two:
+  song: two
+  discogs: MyString
+  bandcamp: MyString
+  soundcloud: MyString
