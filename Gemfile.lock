@@ -122,6 +122,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.1)
     thor (1.0.0)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
@@ -137,12 +138,13 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   listen (>= 3.0.5, < 3.2)
-  pg (>= 0.18, < 2.0)
+  pg
   puma (~> 3.11)
   rack-cors
   rails (~> 5.2.3)
   spring
   spring-watcher-listen (~> 2.0.0)
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
